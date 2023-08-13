@@ -52,9 +52,9 @@ p {
     background: #9cd;
     transform: rotateY(-180deg);
 }
-.card:hover .card-front {
+.revealed .card-front {
     transform: rotateY(0deg);
 }
-.card:hover .card-back {
+.revealed .card-back {
     transform: rotateY(180deg);
 }
